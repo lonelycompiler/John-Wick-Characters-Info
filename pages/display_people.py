@@ -35,9 +35,10 @@ with st.sidebar:
     )
     rich.print('[underline red] sidebar [/underline red]')
 
-for person in options:
+for index,person in enumerate(options):
     st.text(f'First name: {person.first_name}')
     st.text(f'Last name: {person.last_name}')
     st.text(f'Age: {person.age}')
     st.image(person.image())
-    st.markdown('---')
+    if index < len(options)-1:
+        st.markdown('---')
