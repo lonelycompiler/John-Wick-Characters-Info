@@ -1,0 +1,9 @@
+[
+    {"first": "John", "last": "Wick", "age": 40},
+    {"first": "Winston", "last": "", "age": 50},
+    {"first": "Viggo", "last": "Tarasov", "age": 50},
+    {"first": "Bowery", "last": "King", "age": 60},
+    {"first": "The", "last": "Adjudicator", "age": 40},
+    {"first": "The", "last": "Elder", "age": 60},
+    {"first": "Charon", "last": "", "age": 30}
+]
